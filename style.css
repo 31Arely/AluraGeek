@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-color: rgb(99, 10, 141);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.productos, .agregar-producto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.productos {
+    width: 60%;
+    padding-top: 20px;
+}
+
+.agregar-producto {
+    width: 25%;
+}
+
+.productos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    gap: 10px;
+}
+
+.card {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 8px;
+    width: calc(33.333% - 10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    /*max-width: 100%;*/
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    
+
+}
+
+.card-container--info {
+    width: 80%;
+}
+
+.card-container--info p {
+    margin: 10px 0;
+}
+
+.card-container--value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-container--value p {
+    color: #4caf50;
+    margin: 0;
+}
+
+.card-container--value img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.formulario input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.formulario .botones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #387dfc;
+    color: white;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #4a148c;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .productos, .agregar-producto {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
+}

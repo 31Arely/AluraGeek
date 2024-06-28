@@ -1,0 +1,58 @@
+{
+    "productos": [
+        {
+            "nombre": "Liv",
+            "precio": "14,000",
+            "imagen": "https://lbushop.mx/cdn/shop/products/MY22Tempt292_ColorALiquidMetal_1_620x.jpg?v=1632606334",
+            "id": "3"
+        },
+        {
+            "nombre": "Giant",
+            "precio": "22,000",
+            "imagen": "https://giant-bicycles.cl/cdn/shop/files/16793a82f358e990a5fff82f9b6a6e83_e244cb9e-f9b2-4755-9050-e9e01ae00531.jpg?v=1710446017",
+            "id": "4"
+        },
+        {
+            "nombre": "Specialized",
+            "precio": "9,000",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQKKsLohwQJ_OJEFwK7WBX0gZLnFAWkGPziQ&s",
+            "id": "5"
+        },
+        {
+            "nombre": "Cannondale",
+            "precio": "35,000",
+            "imagen": "https://cdn.shoplightspeed.com/shops/620181/files/22689013/cannondale-bicicleta-cannondale-scalpel-carbon-hig.jpg",
+            "id": "6"
+        },
+        {
+            "nombre": "Trek",
+            "precio": "18,000",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDPed6UuyHkfw34K4V3_W98ueUrYZXuI9ICw&s",
+            "id": "7"
+        },
+        {
+            "nombre": "Alubike",
+            "precio": "13,000",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6zpDZrSIdgzL1y1Wweb60Bu5Ph2sdkvGH_A&s",
+            "id": "8"
+        },
+        {
+            "nombre": "Merida",
+            "precio": "120,000",
+            "imagen": "https://bikestore.com.mx/pub/media/catalog/product/cache/0b6bd1f3cf921a647eb5c6e4d232001c/a/n/anyconv.com__reacto_5000_t-replica_my2021.jpg",
+            "id": "9"
+        },
+        {
+            "nombre": "Scott",
+            "precio": "35,000",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNcJATyuDotuScmrezwvDe9MJGR3OK_yYArQ&s",
+            "id": "10"
+        },
+        {
+            "id": "0b56",
+            "nombre": "liv2",
+            "precio": "10,000",
+            "imagen": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/sc7z1kq2gfcknqlz6htc/MY24Tempt290_ColorABlack.jpg"
+        }
+    ]
+}
